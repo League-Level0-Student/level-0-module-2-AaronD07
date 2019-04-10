@@ -9,11 +9,14 @@ public class IntroToRandom {
 	public static void main(String[] args) {
 		
 		int r = 0;
+		Random random= new Random();
+		r = random.nextInt(10);
+				System.out.println(r);
 		
 		//3. Now make r random. 
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number
-		
+	
 
 		//4. Limit the random number between 0 and 100
 
