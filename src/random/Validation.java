@@ -12,14 +12,36 @@ public class Validation {
 		
 		Random randomMaker = new Random();
 		
+		
 		int randomNumber = randomMaker.nextInt(5);
 		
 		System.out.println(randomNumber);
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
+		if (randomNumber==0)
+			JOptionPane.showMessageDialog(null, "You are so smart");
+		if (randomNumber==1)
+			JOptionPane.showMessageDialog(null, "You are so good at coding");
+		if (randomNumber==2)
+			JOptionPane.showMessageDialog(null, "You are so athletic");
+		if (randomNumber==3)
+			JOptionPane.showMessageDialog(null, "You are so funny");
+		if (randomNumber==4)
+			JOptionPane.showMessageDialog(null, "You are so fun to be around");
+		if (randomNumber==5)
+			JOptionPane.showMessageDialog(null, "You are such a good friend");
+		if (randomNumber==6)
+			JOptionPane.showMessageDialog(null, "You are respected");
+		if (randomNumber==7)
+			JOptionPane.showMessageDialog(null, "I appreciate you");
+		if (randomNumber==8)
+			JOptionPane.showMessageDialog(null, "You are so nice");
+		if (randomNumber==9)
+			JOptionPane.showMessageDialog(null, "You are so sweet");
 
 		// 2. Repeat all the code above 10 times
 		
 		// 3. Find someone to test out your program. They will like it :)
 	}
 }
+
