@@ -19,10 +19,14 @@ public class SafeCracker {
 		 * combinations
 		 */
 		
-
+		
+for(int i=0; i<9999999; i++);
+String guess = JOptionPane.showInputDialog("Take a guess.");
+JOptionPane.showMessageDialog(null, "That's incorrect");
 	}
 
 	static void tryCode(int guess) {
+		
 		System.out.println("trying " + guess);
 
 		int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
@@ -32,6 +36,7 @@ public class SafeCracker {
 			playTheSoundOfSuccess();
 			System.exit(0);
 		}
+			
 	}
 
 	private static void playTheSoundOfSuccess() {

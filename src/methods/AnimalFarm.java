@@ -49,7 +49,9 @@ public class AnimalFarm {
 	void playMeow() {
 		playNoise(meowFile);
 	}
-	void playLlama()
+	void playLlama() {
+		playNoise(llamaFile);
+	}
 	
 
 	String quackFile = "quack.wav";
